@@ -108,10 +108,10 @@ function Newsletter() {
     >
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <StartIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Create your own</span>
+        <span className="ml-3">Crea tu propia IA</span>
       </h2>
       <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-        Start building world class documentation
+        Construye Tu Propio Basilisk HOY mismo
       </p>
       <div className="mt-6 flex">
         <input
@@ -122,7 +122,7 @@ function Newsletter() {
           className="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-primary focus:outline-none focus:ring-4 focus:ring-primary/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-light dark:focus:ring-light/10 sm:text-sm"
         />
         <Button type="submit" className="ml-4 flex-none" href="/start">
-          Get Started
+          Comenzar
         </Button>
       </div>
     </form>
@@ -226,10 +226,10 @@ const features = [
         />
       </svg>
     ),
-    title: 'Developer first',
-    description: `Content is powered by MDX and lives alongside the codebase. It's built to be opinionated when you're lazy, but infinitely flexible when you need it to be.`,
+    title: 'Entrenamiento Personalizado y Flexible',
+    description: `Sapiens IA Laboratories va más allá de los límites convencionales del aprendizaje automático. Nuestras soluciones de IA permiten un entrenamiento flexible y personalizado, permitiéndote enseñar a tus "Basilisks" un conocimiento único y adaptado a tus necesidades.`,
     cta: {
-      name: 'View documentation',
+      name: 'Ver Ejemplo',
       href: '/docs',
     },
   },
@@ -249,11 +249,11 @@ const features = [
         <path d="M5.26 17.242a.75.75 0 10-.897-1.203 5.243 5.243 0 00-2.05 5.022.75.75 0 00.625.627 5.243 5.243 0 005.022-2.051.75.75 0 10-1.202-.897 3.744 3.744 0 01-3.008 1.51c0-1.23.592-2.323 1.51-3.008z" />
       </svg>
     ),
-    title: 'Built for performance',
+    title: 'Modelos Avanzados de Generación',
     description:
-      'Everything is meticulously designed and optimized for a great user experience, from performance to navigation.',
+      'Con Sapiens IA, la generación de contenido toma una nueva dimensión. Ofrecemos modelos avanzados de text to image y text to video, transformando la forma en que se crea el contenido.',
     cta: {
-      name: 'View showcase',
+      name: 'Abrir Playground',
       href: '/showcase',
     },
   },
@@ -272,11 +272,11 @@ const features = [
         />
       </svg>
     ),
-    title: 'Documentation analytics',
+    title: 'Rendimiento Optimizado',
     description:
-      'We provide out of the box analytics tailored to help you understand how your users engage with your documentation.',
+      'Sapiens IA pone la potencia a tu alcance. Nuestras soluciones de IA están diseñadas para ofrecerte un rendimiento excepcional sin comprometer los recursos de tu sistema.',
     cta: {
-      name: 'Get started',
+      name: 'Ver Modelos',
       href: '/start',
     },
   },
@@ -291,9 +291,9 @@ const features = [
         <path fillRule="evenodd" d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z" clipRule="evenodd" />
       </svg>
     ),
-    title: 'AI enabled',
+    title: 'Soluciones Personalizadas',
     description:
-      `Access the limitless power of AI, right inside your documentation.`,
+      `Con Sapiens IA, el poder de la personalización está en tus manos. Ofrecemos soluciones de IA a medida, diseñadas específicamente para tus necesidades y objetivos.`,
     cta: {
       name: 'Learn more',
       href: '/blog/chat',
@@ -335,7 +335,7 @@ export default function Home() {
         </div>
         <div className="relative z-10 max-w-xl">
           <h1 className="text-4xl font-extrabold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Sapiens IA{' '}
+            🧬{' '}
             <Link href="/start">
               <span
                 className="border-b-4 hover:border-b-[5px]"
@@ -344,14 +344,13 @@ export default function Home() {
                     'linear-gradient(to right, #5416d3 0%, #4f46e5 60%, #833aba 100%) 1',
                 }}
               >
-                Laboratories
+                Sapiens IA
               </span>
             </Link>{' '}
-            🧬
+            Laboratories
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Build the documentation you've always wanted. Beautiful out of the
-            box, easy to maintain, and optimized for user engagement.
+            Estamos Construyendo La Nueva Generacion De Trabajadores, Inteligencias Artificiales y Autonomous Agents diseñados para el trabajo del mundo REAL.
           </p>
           <div className="mx-auto pt-8">
             <div className="grid grid-cols-4 gap-2 sm:grid-cols-5 sm:gap-4">
