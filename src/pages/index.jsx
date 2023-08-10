@@ -313,26 +313,25 @@ export default function Home() {
       </Head>
       <Container className="relative mt-9">
         <div class="absolute inset-x-0 bottom-0 -top-32 z-0 text-[#4e31ad]/50 [mask-image:radial-gradient(circle,white,transparent)] dark:text-white/10">
-          <svg aria-hidden="true" class="absolute inset-0 h-full w-full">
-            <defs>
-              <pattern
-                id=":Rem:"
-                width="128"
-                height="128"
-                patternUnits="userSpaceOnUse"
-                x="50%"
-                y="100%"
-              >
-                <path
-                  d="M0 128V.5H128"
-                  fill="none"
-                  stroke="currentColor"
-                ></path>
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#:Rem:)"></rect>
-          </svg>
-        </div>
+  <svg aria-hidden="true" class="absolute inset-0 h-full w-full">
+    <defs>
+      <pattern
+        id="customPattern"
+        width="100"
+        height="100"
+        patternUnits="userSpaceOnUse"
+      >
+        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#18003a" />
+          <stop offset="50%" stop-color="#311b92" />
+          <stop offset="100%" stop-color="#800027" />
+        </linearGradient>
+        <rect x="0" y="0" width="100%" height="100%" fill="url(#gradient)" />
+      </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#customPattern)"></rect>
+  </svg>
+</div>
         <div className="relative z-10 max-w-xl">
           <h1 className="text-4xl font-extrabold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
             🧬{' '}
