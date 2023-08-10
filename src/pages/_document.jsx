@@ -58,7 +58,7 @@ export default function Document() {
         dangerouslySetInnerHTML={{ __html: googleAnalyticsScript }}
       />
       <script dangerouslySetInnerHTML={{ __html: modeScript }} />
-      <body className="flex h-full flex-col bg-zinc-50 dark:bg-zinc-950">
+      <body className="flex h-full flex-col bg-zinc-50 dark:bg-zinc-950" style={{ backgroundImage: "url('https://raw.githubusercontent.com/Vortextech01/mintlify.com/main/public/static/images/blog/FE2B9339-EEBC-4476-9A0A-2C36E560D164.jpeg')" }}>
         <Main />
         <NextScript />
       </body>
