@@ -312,26 +312,7 @@ export default function Home() {
         />
       </Head>
       <Container className="relative mt-9">
-        <div class="absolute inset-x-0 bottom-0 -top-32 z-0 text-slate-900/10 [mask-image:radial-gradient(circle,white,transparent)] dark:text-white/10">
-          <svg aria-hidden="true" class="absolute inset-0 h-full w-full">
-            <defs>
-              <pattern
-                id=":Rem:"
-                width="128"
-                height="128"
-                patternUnits="userSpaceOnUse"
-                x="50%"
-                y="100%"
-              >
-                <path
-                  d="M0 128V.5H128"
-                  fill="none"
-                  stroke="currentColor"
-                ></path>
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#:Rem:)"></rect>
-          </svg>
+        <div className="absolute inset-0 bg-cover bg-center z-0" style={{ backgroundImage: "url('./3225BC5D-81F4-4E3B-8BDF-E30D376E2619.jpeg')" }}>
         </div>
         <div className="relative z-10 max-w-xl">
           <h1 className="text-4xl font-extrabold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
