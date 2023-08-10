@@ -5,13 +5,37 @@
 @import './prism.css';
 @import './fonts.css';
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white;
+  }
+}
+
 @layer components {
   .shine {
-    box-shadow: -8px 0px 20px rgba(24, 226, 81, 0.3),
-      0px 0px 20px rgba(0, 192, 234, 0.3), 8px 0px 20px rgba(98, 72, 255, 0.3);
+    box-shadow: -8px 0px 20px rgba(54, 16, 211, 0.6),
+      0px 0px 20px rgba(79, 70, 229, 0.6), 8px 0px 20px rgba(131, 58, 180, 0.6);
   }
 
   .dark .prose a {
-    color: white;
+    color: #a0a4c2;
+  }
+
+  .prose {
+    color: #a0a4c2;
+  }
+}
+
+@layer utilities {
+  .bg-purple {
+    background-color: #4e31ad;
+  }
+
+  .text-purple {
+    color: #4e31ad;
   }
 }
