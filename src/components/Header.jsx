@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 import { Container } from '@/components/Container'
-import logo from '@/images/mintlify.svg'
+import logo from '@/images/9765A3CF-F34A-4AA7-9E49-60205BF664D0.png'
 import { Fragment, useEffect, useRef } from 'react'
 import { ChevronRightIcon } from './Card'
 import DynamicLink from './DynamicLink'
