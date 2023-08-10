@@ -351,26 +351,26 @@ export default function Home() {
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             Estamos Construyendo La Nueva Generacion De Trabajadores, Inteligencias Artificiales y Autonomous Agents diseñados para el trabajo del mundo REAL.
           </p>
-          <div className="mx-auto pt-8">
-            <div className="grid grid-cols-4 gap-2 sm:grid-cols-5 sm:gap-4">
-              {[
-                ['YCombinator', logoYCombinator],
-                ['Flatfile', logoFlatfile],
-                ['Thanx', logoThanx],
-                ['Depict', logoDepict],
-                ['Sequence', logoSequence],
-                ['MindsDB', logoMindsDB],
-                ['ElevenLabs', logoElevenLabs],
-                ['Resend', logoResend],
-                ['Goody', logoGoody],
-                ['LatchBio', logoLatchBio],
-              ].map(([alt, logo]) => (
-                <div className="col-span-1 flex justify-center dark:brightness-125 lg:col-span-1">
-                  <Image className="h-12" src={logo} alt={alt} />
-                </div>
-              ))}
-            </div>
-          </div>
+          <div className="mx-auto pt-8" style={{ backgroundImage: "url('https://raw.githubusercontent.com/Vortextech01/mintlify.com/main/public/static/images/blog/FE2B9339-EEBC-4476-9A0A-2C36E560D164.jpeg')" }}>
+  <div className="grid grid-cols-4 gap-2 sm:grid-cols-5 sm:gap-4">
+    {[
+      ['YCombinator', logoYCombinator],
+      ['Flatfile', logoFlatfile],
+      ['Thanx', logoThanx],
+      ['Depict', logoDepict],
+      ['Sequence', logoSequence],
+      ['MindsDB', logoMindsDB],
+      ['ElevenLabs', logoElevenLabs],
+      ['Resend', logoResend],
+      ['Goody', logoGoody],
+      ['LatchBio', logoLatchBio],
+    ].map(([alt, logo]) => (
+      <div className="col-span-1 flex justify-center dark:brightness-125 lg:col-span-1">
+        <Image className="h-12" src={logo} alt={alt} />
+      </div>
+    ))}
+  </div>
+</div>
         </div>
       </Container>
       <Photos />
