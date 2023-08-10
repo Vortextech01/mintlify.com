@@ -312,7 +312,7 @@ export default function Home() {
         />
       </Head>
       <Container className="relative mt-9">
-        <div className="absolute inset-0 bg-cover bg-center z-10" style={{ backgroundImage: "url('../public/static/images/blog/FE2B9339-EEBC-4476-9A0A-2C36E560D164.jpeg')" }}>
+        <div className="absolute inset-0 bg-cover bg-center z-10" style={{ backgroundImage: "url('https://raw.githubusercontent.com/Vortextech01/mintlify.com/main/public/static/images/blog/FE2B9339-EEBC-4476-9A0A-2C36E560D164.jpeg')" }}>
         </div>
         <div className="relative z-20 max-w-xl">
           <h1 className="text-4xl font-extrabold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
