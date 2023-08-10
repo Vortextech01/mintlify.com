@@ -305,14 +305,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Mintlify - Beautiful documentation that converts users</title>
+        <title>Sapiens - La Nueva Generacion De Trabajadores</title>
         <meta
           name="description"
-          content="Build the documentation you've always wanted. Beautiful out of the box, easy to maintain, and optimized for user engagement."
+          content="Build the AI you've always wanted. SMART out of the box, easy to maintain, and optimized for user engagement."
         />
       </Head>
       <Container className="relative mt-9">
-        <div class="absolute inset-x-0 bottom-0 -top-32 z-0 text-slate-900/10 [mask-image:radial-gradient(circle,white,transparent)] dark:text-white/10">
+        <div class="absolute inset-x-0 bottom-0 -top-32 z-0 text-[#4e31ad]/50 [mask-image:radial-gradient(circle,white,transparent)] dark:text-white/10">
           <svg aria-hidden="true" class="absolute inset-0 h-full w-full">
             <defs>
               <pattern
@@ -335,19 +335,19 @@ export default function Home() {
         </div>
         <div className="relative z-10 max-w-xl">
           <h1 className="text-4xl font-extrabold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Beautiful documentation that{' '}
+            Sapiens IA{' '}
             <Link href="/start">
               <span
                 className="border-b-4 hover:border-b-[5px]"
                 style={{
                   borderImage:
-                    'linear-gradient(to right, #18E251 0%, #00C0EA 60%, #6248FF 100%) 1',
+                    'linear-gradient(to right, #5416d3 0%, #4f46e5 60%, #833aba 100%) 1',
                 }}
               >
-                converts
+                Laboratories
               </span>
             </Link>{' '}
-            users
+            🧬
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             Build the documentation you've always wanted. Beautiful out of the
